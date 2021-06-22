@@ -1,0 +1,61 @@
+html {
+	height: 100%;
+	font-family: "Inter", sans-serif;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+p {
+	font-weight: 200;
+}
+
+#navigation {
+	background-color: #3C8DCC;
+	font-size: 1.25em;
+	font-family: "Inter", sans-serif;
+}
+#navigation strong {
+	font-weight: 700;
+}
+
+#headerimage {
+	display: table;
+	background-image: url("temporary.svg");
+	background-position: center;
+  	background-repeat: no-repeat; /* no tiny images repeating */
+	background-size: cover; /* adapts somewhat to the window, doesn't distort */
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+	position: relative;
+}
+
+#titletext {
+	/* vertically middle align stuff */
+	display: table-cell;
+ 	vertical-align: middle;
+	padding-left: 20px;
+	/*padding-right: 2em; add later with image */
+}
+
+.titleheader {
+	/* I am using a monospace font for the decorative/important text. 
+	A sans-serif font would be sleeker and less tech-y, depends on the vibe we want */
+	font-weight: 900;
+	font-size: 9em;
+	text-align: left;
+	line-height: 1; /* prevents absurb spacing */
+}
+
+#titletext p {
+	color: white;
+	font-size: 2.5em;
+	line-height: 1;
+}
