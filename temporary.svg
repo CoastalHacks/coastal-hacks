@@ -6,7 +6,7 @@
 </defs>
 <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
 <g transform="matrix(1 0 0 1 640 360)" id="8882602c-d082-46d2-8837-99672b6d75e9"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(60,141,204); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-640" y="-360" rx="0" ry="0" width="1280" height="720" />
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #4ECDFB; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-640" y="-360" rx="0" ry="0" width="1280" height="720" />
 </g>
 <g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="95fea723-6193-44fe-b67e-706211fcfe82"  >
 </g>

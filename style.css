@@ -1,61 +1,71 @@
-html {
-	height: 100%;
-	font-family: "Inter", sans-serif;
-}
 
-body {
-	height: 100%;
-	margin: 0px;
-}
 
-h1 {
+.nav-link, .logo {
+	color: #FFEAB3 !important;
 	font-weight: 900;
+
 }
 
-p {
-	font-weight: 200;
-}
-
-#navigation {
-	background-color: #3C8DCC;
-	font-size: 1.25em;
-	font-family: "Inter", sans-serif;
-}
-#navigation strong {
+.nav-link {
+	font-size: 1.25rem;
 	font-weight: 700;
 }
 
-#headerimage {
-	display: table;
-	background-image: url("temporary.svg");
-	background-position: center;
-  	background-repeat: no-repeat; /* no tiny images repeating */
-	background-size: cover; /* adapts somewhat to the window, doesn't distort */
-	height: 100%;
-	width: 100%;
-	overflow-y: hidden;
-	position: relative;
+.logo {
+	font-size: 1.5rem;
 }
 
-#titletext {
-	/* vertically middle align stuff */
-	display: table-cell;
- 	vertical-align: middle;
-	padding-left: 20px;
-	/*padding-right: 2em; add later with image */
+
+.top {
+	background-color: #4ECDFB;
+	font-family: "Inter", sans-serif;
 }
 
 .titleheader {
-	/* I am using a monospace font for the decorative/important text. 
-	A sans-serif font would be sleeker and less tech-y, depends on the vibe we want */
 	font-weight: 900;
-	font-size: 9em;
+	font-size: 8rem;
 	text-align: left;
-	line-height: 1; /* prevents absurb spacing */
+	line-height: 1;
 }
 
-#titletext p {
+
+.coastalhacks {
+	padding: 4rem 0 1.5rem 0;
+
+}
+
+.slogan {
+	font-size: 2rem;
 	color: white;
-	font-size: 2.5em;
-	line-height: 1;
+	font-weight: normal;
+}
+
+#headermain {
+	background-color: #4ECDFB;
+}
+
+.learn {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: Bold;
+}
+
+.main {
+	padding: 6rem 0 3rem;
+}
+
+.box {
+	width: 100%;
+	background-color: #FFEAB3;
+	border-radius: 20px;
+	margin: 2rem 0;
+	padding: 1rem;
+}
+
+.box2 {
+	width: 100%;
+	background-color: #FFE900;
+	border-radius: 20px;
+	margin: 2rem 0;
+	padding: 1rem;
 }
