@@ -19,20 +19,18 @@
 
 	<body>
 
-
-
 		<section id="header"  style="background-color: #4ECDFB">
 
-
-
 					<!-- Nav Bar -->
-					<nav class="navbar navbar-expand-lg navbar-light bd-navbar container">
+					<!-- Personally, I'd prefer fewer navbar elements + no expand -->
+					<nav class="navbar navbar-expand-lg navbar-dark bd-navbar container">
 
-
+						<!-- I'm commenting out the brand for now? I feel like the website would be better off without it but we should talk with everyone 
 						<a class="navbar-brand" href="#">
-							<!-- <img src="https://avatars.githubusercontent.com/u/86263938?s=200&v=4" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy"> -->
+							<\-- <img src="https://avatars.githubusercontent.com/u/86263938?s=200&v=4" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy"> -\->
 							<span class="logo">Coastal Hacks</span>
 						</a>
+						-->
 
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -41,19 +39,23 @@
 						<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="#about">About</a>
+									<a class="nav-link" href="#about">about</a> <!-- uppercase or lowercase aesthetic? -->
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#Schedule">Schedule</a>
+									<a class="nav-link" href="#Schedule">schedule</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#sponsors">Sponsors</a>
+									<a class="nav-link" href="#sponsors">sponsors</a>
+								</li>
+								<!-- I don't think these are necessary -->
+								<li class="nav-item">
+									<a class="nav-link" href="#volunteers">volunteers</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#volunteers">Volunteers</a>
+									<a class="nav-link" href="#team">team</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#team">Team</a>
+									<a class="nav-link" style="font-weight: 700; color: white;" href="#register">register!</a>
 								</li>
 							</ul>
 						</div>
@@ -62,86 +64,113 @@
 
 			</section>
 
+			<section id="headermain">
 
-<section id="headermain">
+			<div class="container">
 
-<div class="container">
+			<!-- <div class="coastalhacks">
 
-<!-- <div class="coastalhacks">
+				<h1 style="color: #FFEAB3;" class="titleheader">Coastal</h1>
+				<h1 style="color: #FFF15C;" class="titleheader">Hacks</h1>
+				<h1 style="color: #FFC45E;" class="titleheader">2021</h1>
 
-	<h1 style="color: #FFEAB3;" class="titleheader">Coastal</h1>
-	<h1 style="color: #FFF15C;" class="titleheader">Hacks</h1>
-	<h1 style="color: #FFC45E;" class="titleheader">2021</h1>
-
-</div>
-
-
-<div class="titletext">
-
-	<p class="slogan"> this should be like a slogan or something </p>
-	<a href="#intro"> <p style="font-weight: 900;"> learn more </p> </a>
-</div>
- -->
-
- <div class="row main">
-
- <div class="col-lg-6 ">
-	 <h1 style="color: #FFEAB3;" class="titleheader">Coastal</h1>
-  	<h1 style="color: #FFF15C;" class="titleheader">Hacks</h1>
-  	<h1 style="color: #FFC45E;" class="titleheader">2021</h1>
- <h2 class="slogan">this should be like a slogan or something</h2>
-<p class="learn">Learn More!</p>
- </div>
- <div class="col-lg-6 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center">
-	 <!-- <img src="temporary.svg" alt=""> -->
- </div>
+			</div>
 
 
+			<div class="titletext">
 
-	 </div>
-	</div>
+				<p class="slogan"> this should be like a slogan or something </p>
+				<a href="#intro"> <p style="font-weight: 900;"> learn more </p> </a>
+			</div>
+			-->
 
+			<div class="row main">
 
-</section>
-
-
-<section id="about">
-<div class="container">
-
-
-	<div class="row">
-
-  <div class="col-lg-6 ">
- 	 <div class="box">
-<h3>About Coastal Hacks</h3>
-<p>Coastal Hacks is a San Diego-based hackathon open to anyone! more information about our theme, our goals, the people that we want to
-attract, why this hackathon exists, etc.</p>
- 	 </div>
-
-  </div>
-  <div class="col-lg-6">
-</div>
-<div class="col-lg-6">
-</div>
-
-
-<div class="col-lg-6 ">
- <div class="box2">
-<h3>About Coastal Hacks</h3>
-<p>Coastal Hacks is a San Diego-based hackathon open to anyone! more information about our theme, our goals, the people that we want to
-attract, why this hackathon exists, etc.</p>
- </div>
-
-</div>
-</div>
+			<div class="col-lg-6 ">
+				<h1 style="color: #FFEAB3;" class="titleheader"> Coastal </h1>
+				<h1 style="color: #FFF15C;" class="titleheader"> Hacks </h1>
+				<h1 style="color: #FFC45E;" class="titleheader"> 2021 </h1>
+			<h2 class="slogan"> a good hackathon has a good slogan! </h2>
+			<p class="learn"> learn more </p> <!-- I think this is a relic of the past that we can safely get rid of -->
+			</div>
+			<div class="col-lg-6 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center">
+				<!-- <img src="temporary.svg" alt=""> -->
+			</div>
 
 
 
-</div>
+			</div>
+			</div>
 
-</section>
 
-<script src="index.js" charset="utf-8"></script>
+			</section>
+
+			<br />
+
+			<section id="about">
+				
+			<div class="container">
+
+
+				<div class="row">
+
+			<div class="col-lg-9 ">
+				<div class="box">
+					<!-- also sorry about the emojis I'll add in Unicode codes when I'm in a better situation -->
+					<h3> <strong> 🏝 about Coastal Hacks </strong> </h3> <!-- no idea why it wasn't bold before lol this is a temporary fix -->
+					<p>
+						Coastal Hacks is a San Diego-based hackathon open to anyone: you need not live near a coast to participate! There is a lot more that we could say about our organization, but we would hope to have input from other team members before filling out these sections entirely. This is just filler text for now.
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-3">
+				<!-- Currently empty space -->
+			</div>
+
+			<div class="col-lg-3">
+				<!-- Currently empty space -->
+			</div>
+
+
+			<div class="col-lg-9 ">
+				<div class="box2">
+					<h3> <strong> 📅 our schedule </strong> </h3>
+					<p>
+						We're excited to offer a whole host of events -- our hackathon, and more! Here are a few things to be excited for: 
+					</p>
+					<ul>
+						<li> 7:30am wake up </li>
+						<li> 8:00am breakfast </li>
+						<li> 8:30am go to school </li>
+					</ul>
+					<p> This will be made into an actual schedule thing later when we have a schedule. </p>
+				</div>
+			</div>
+
+			<div class="col-lg-9 ">
+				<div class="box3">
+					<!-- also sorry about the emojis I'll add in Unicode codes when I'm in a better situation -->
+					<h3> <strong> 🤔 how can I get involved? </strong> </h3> <!-- no idea why it wasn't bold before lol this is a temporary fix -->
+					<p>
+						If you're interested in participating, register! (link will be included) It's free to enter, and it'll be plenty of fun. If you're interested in volunteering at the event, either as a speaker or a judge, please contact us at email@coastalhacks.com. If you're interested in sponsoring our hackathon, please contact sponsors@coastalhacks.com. Thank you for your interest!
+					</p>
+				</div>
+			</div>
+
+			<div class="col-lg-3">
+				<!-- Currently empty space -->
+			</div>
+
+			</div>
+
+
+
+			</div>
+
+			</section>
+
+			<script src="index.js" charset="utf-8"></script>
 
 	</body>
 </html>

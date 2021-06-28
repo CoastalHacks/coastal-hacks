@@ -1,14 +1,16 @@
-
+body {
+	font-family: "Inter", sans-serif !important;
+}
 
 .nav-link, .logo {
-	color: #FFEAB3 !important;
-	font-weight: 900;
+	/*color: #FFEAB3 !important;*/
+	/*font-weight: 900;*/
 
 }
 
 .nav-link {
 	font-size: 1.25rem;
-	font-weight: 700;
+	/*font-weight: 700;*/
 }
 
 .logo {
@@ -59,7 +61,8 @@
 	background-color: #FFEAB3;
 	border-radius: 20px;
 	margin: 2rem 0;
-	padding: 1rem;
+	padding: 1.3rem;
+	padding-bottom: 0.65rem; /* another makeshift solution so the website looks better in draft mode */
 }
 
 .box2 {
@@ -67,5 +70,15 @@
 	background-color: #FFE900;
 	border-radius: 20px;
 	margin: 2rem 0;
-	padding: 1rem;
+	padding: 1.3rem;
+	padding-bottom: 0.65rem;
+}
+
+.box3 {
+	width: 100%;
+	background-color: #FFC45E;
+	border-radius: 20px;
+	margin: 2rem 0;
+	padding: 1.3rem;
+	padding-bottom: 0.65rem;
 }
